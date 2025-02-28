@@ -42,7 +42,6 @@ const CONFIG = {
   HEXO_WIDGET_TO_COMMENT: true, // 跳到评论区
   HEXO_WIDGET_DARK_MODE: true, // 夜间模式
   HEXO_WIDGET_TOC: true // 移动端悬浮目录
-  HEXO_HOME_POST_COUNT: 6 // 新增这个控制参数，数字代表需要显示的数量
  
 }
 export default CONFIG
