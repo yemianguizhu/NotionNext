@@ -439,15 +439,5 @@ export {
   const posts = props.posts?.slice(0, siteConfig('HEXO_HOME_POST_COUNT', 6, CONFIG))
   const modifiedProps = { ...props, posts }
 
-  return (
-    <div className='pt-8'>
-      <SlotBar {...modifiedProps} />
-      {siteConfig('POST_LIST_STYLE') === 'page' ? (
-        <BlogPostListPage {...modifiedProps} />
-      ) : (
-        <BlogPostListScroll {...modifiedProps} />
-      )}
-    </div>
-  )
 }
 }
