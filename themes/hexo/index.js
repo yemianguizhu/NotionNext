@@ -422,4 +422,3 @@ const LayoutTagIndex = props => {
     </div>
   )
 }
-}
