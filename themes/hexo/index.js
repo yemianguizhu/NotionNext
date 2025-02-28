@@ -421,4 +421,14 @@ const LayoutTagIndex = props => {
       </Card>
     </div>
   )
+  return (
+    <div className='pt-8'>
+      <SlotBar {...modifiedProps} />
+      {siteConfig('POST_LIST_STYLE') === 'page' ? (
+        <BlogPostListPage {...modifiedProps} />
+      ) : (
+        <BlogPostListScroll {...modifiedProps} />
+      )}
+    </div>
+  )
 }
