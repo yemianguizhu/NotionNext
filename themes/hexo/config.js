@@ -29,6 +29,8 @@ const CONFIG = {
   HEXO_POST_LIST_SUMMARY: true, // 文章摘要
   HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
+  SHOW_BLOG_LIST: false // 新增配置项
+}
 
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEXO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
